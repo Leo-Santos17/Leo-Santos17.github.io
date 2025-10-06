@@ -1,0 +1,42 @@
+/*
+ * Arquivo: styles.css
+ * Demonstração para GitHub Pages
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o conteúdo fique centralizado verticalmente */
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+}
+
+h1 {
+    color: #007bff; /* Azul vibrante */
+    margin-bottom: 15px;
+    font-size: 2.5em;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+    font-style: italic;
+    color: #555;
+}
